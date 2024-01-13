@@ -74,8 +74,23 @@ button:hover {
     margin-top: 0%;
 }
 
+.amenities h3 span {
+    white-space: nowrap;
+    font-size: 13px;
+}
+
 .amenities .popover ul{
     margin: 0px;
+}
+
+.amenities .popover ul li {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.amenities .popover ul li #amenity_checker {
+   border: 2px solid black;
 }
 
 .locations .popover {
